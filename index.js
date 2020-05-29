@@ -11,6 +11,6 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 function greet(time) {
-  hour = time.split(":")
+  hour = time.split(":")[0]
 }
 /* Write your implementation of displayMessage() */
