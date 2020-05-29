@@ -16,7 +16,10 @@ function greet(time) {
   switch (hour) {
     case < 12:
       return "Good Morning";
-    case
+    case < 17:
+      return "Good Afternoon";
+    default:
+      "Good Evening"
   }
 }
 /* Write your implementation of displayMessage() */
