@@ -15,7 +15,7 @@ function greet(time) {
   
   switch (hour) {
     case < 12:
-      return "Good Morning"
+      return "Good Morning";
     case
   }
 }
