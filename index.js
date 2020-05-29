@@ -21,4 +21,9 @@ function greet(time) {
     return "Good Evening"
   }
 }
+
 /* Write your implementation of displayMessage() */
+
+function displayMessage(message) {
+  
+}
