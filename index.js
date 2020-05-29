@@ -19,7 +19,7 @@ function greet(time) {
     case < 17:
       return "Good Afternoon";
     default:
-      "Good Evening"
+      "Good Evening";
   }
 }
 /* Write your implementation of displayMessage() */
