@@ -14,7 +14,11 @@ function greet(time) {
   hour = time.split(":")[0].parseInt()
   
   if (hour < 12) {
-    
+    return "Good Morning"
+  } else if (hour < 17) {
+    return "Good Afternoon"
+  } else {
+    return "Good Evening"
   }
 }
 /* Write your implementation of displayMessage() */
