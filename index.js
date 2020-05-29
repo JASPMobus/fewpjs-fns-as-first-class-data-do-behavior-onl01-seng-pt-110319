@@ -13,13 +13,6 @@ function handleClick(e) {
 function greet(time) {
   hour = time.split(":")[0].parseInt()
   
-  switch (hour) {
-    case < 12:
-      return "Good Morning";
-    case < 17:
-      return "Good Afternoon";
-    default:
-      "Good Evening";
-  }
+  
 }
 /* Write your implementation of displayMessage() */
