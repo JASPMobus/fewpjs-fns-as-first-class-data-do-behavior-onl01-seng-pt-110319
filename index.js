@@ -13,6 +13,8 @@ function handleClick(e) {
 function greet(time) {
   hour = time.split(":")[0]
   
-  switch hour
+  switch (hour) {
+    case < 12
+  }
 }
 /* Write your implementation of displayMessage() */
