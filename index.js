@@ -14,7 +14,9 @@ function greet(time) {
   hour = time.split(":")[0]
   
   switch (hour) {
-    case < 12
+    case < 12:
+      return "Good Morning"
+    case
   }
 }
 /* Write your implementation of displayMessage() */
